@@ -1,0 +1,112 @@
+    /* CSS reset */
+    body
+    {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background-image: url(img/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 1550px 760px;
+        font-family: 'Montserrat Alternates', sans-serif;
+    }
+    .left
+    {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+    }
+    .left img{
+        width: 45px;
+        margin: 5px 30px;
+        filter: invert(100%);
+    }
+    .left div
+    {
+        text-align: center;
+    }
+    .mid
+    {
+        /* border: 2px solid green; */
+        display: block;
+        width: 39%;
+        margin: 20px auto;
+        padding-left: 1px;
+
+    }
+    .right
+    {
+        position: absolute;
+        right: 34px;
+        top: 33px;
+        /* border: 2px solid yellow; */
+        display: inline-block;
+    }
+    .navbar
+    {
+        display: inline-block;
+    }
+    .navbar li
+    {
+        display: inline-block;
+        font-size: 20px;    
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 20px 13px;
+    }
+    ul
+    {
+        padding-inline-start: 15px;
+    }
+    .navbar li a:hover,  .navbar li a:active{
+        color: rgb(207, 207, 207);
+        text-decoration: underline;
+    }
+    .btn
+    {
+        font-family: 'Montserrat Alternates', sans-serif;
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 7px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .btn:hover
+    {
+        background-color: rgb(128, 118, 118);
+    }
+    .container
+    {
+        /* border: 2px solid grey; */
+        margin: 30px 70px;
+        padding: 65px 30px;
+        width: 30%;
+        border-radius: 20px;
+    }
+    .form-group input
+    {
+        font-family: 'Montserrat Alternates', sans-serif;
+        text-align: center;
+        border-radius: 10px;
+        display: block;
+        width: 400px;
+        padding: 6px;
+        border: 2px solid black;
+        margin: 10px auto;
+        font-size: 18px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button
+    {
+        display: block;
+        width: 92%;
+        margin: 25px auto;
+    }
